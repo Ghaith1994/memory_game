@@ -1,0 +1,26 @@
+div.card {
+    background-color: blueviolet;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+div.blank {
+    background-color: white;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+div.row {
+    clear:both;
+}
+
+div#board {
+    margin-left: 20%;
+}
+

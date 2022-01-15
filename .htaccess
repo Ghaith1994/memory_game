@@ -1,0 +1,12 @@
+DirectoryIndex index.php
+
+RewriteEngine on
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !/assets
+
+# Push every request to index.php
+RewriteRule ^(.*)$ index.php [QSA]
